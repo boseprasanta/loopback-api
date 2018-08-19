@@ -12,11 +12,11 @@ sudo npm isntall -g loopback-cli
 ```
 That will give us access to create models and etc.
 
-###To start a new application:
+### To start a new application:
 ```
 lb
 ```
-###To start the application :
+### To start the application :
 ```
 cd folder_name/
 node .
@@ -31,7 +31,7 @@ there is authentication.js. If you want to authenticate you have to do it here.
 
 Server.enableAuth();
 
-#Settig up the mongo connecter.
+# Settig up the mongo connecter.
 ```
 npm isntall –save loopback-connector-mongodb
 ```
@@ -43,7 +43,7 @@ npm isntall –save loopback-connector-mongodb
 
 * make sure to rename the MongoDS in datasource.json to db
 
-###To create a model 
+### To create a model 
 ```
 lb model
 ```
@@ -52,7 +52,7 @@ lb model
 
 
 
-###Authenticate
+### Authenticate
 ```
 lb acl
 ```
